@@ -1,0 +1,28 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2023-10-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/subpage1</loc>
+    <image:image>
+      <image:loc>https://example.com/robots-snippet.png</image:loc>
+    </image:image>
+    <lastmod>2023-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/subpage2</loc>
+    <lastmod>2023-09-20</lastmod>
+    <image:image>
+      <image:loc>https://example.com/sitemap-snippet.png</image:loc>
+    </image:image>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+
+  
