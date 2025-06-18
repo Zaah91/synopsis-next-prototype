@@ -23,6 +23,19 @@ const siteMetadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+  twitter: { // Twitter Card metadata
+    card: "summary_large_image",
+    title: "Next.js Prototype",
+    description: "An example of using metadata in Next.js with robots.txt and sitemap.xml",
+    images: [
+      {
+        url: "https://github.com/Zaah91/synopsis-next-prototype/blob/master/public/duck.webp?raw=true",
+        width: 1200,
+        height: 630,
+        alt: "Twitter Card Image",
+        },
+    ]
+    },
 }
 
 export default siteMetadata;

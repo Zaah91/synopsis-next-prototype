@@ -10,7 +10,7 @@ export default function Metadatapage() {
       <header className="text-center mb-8">
         <h1 className="text-4xl font-bold">Metadata</h1>
         <p className="text-lg mt-2">Many ways - Many results</p>
-        <img src="/metadata-layout.png" alt="Metadata layput code example" className="mx-auto mt-4" />
+        <img src="/metadata-collection.png" alt="Metadata collection code example" className="mx-auto mt-4" />
       </header>
       <div className="grid grid-cols-3 sm:grid-cols-2 gap-8">
       <div>
