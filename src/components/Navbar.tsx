@@ -7,7 +7,8 @@ const Navbar = () => {
       <Link href="/" className="mr-4 text-black">Home</Link>
       <Link href="/subpage1" className="mr-4 text-black">robots.ts</Link>
       <Link href="/subpage2" className="mr-4 text-black">sitemap.ts</Link>
-      <Link href="/metadataPage" className="text-black">metadata</Link>
+      <Link href="/metadataPage" className="mr-4 text-black">metadata</Link>
+      <Link href="/honorary" className="text-black">Honorary mentions</Link>
     </nav>
   );
 };
