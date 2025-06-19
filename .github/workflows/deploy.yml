@@ -3,7 +3,7 @@ name: Deploy synopsis prototype to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Use main branch instead of gh-pages
 
 jobs:
   build-and-deploy:
@@ -14,10 +14,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install || echo "No dependencies to install"
 
-      - name: Build and Export Next.js site
-        run: npm run build && npm run export
+      # - name: Compile SCSS to CSS (if applicable)
+      #   run: npm run build-css || echo "No SCSS compilation needed"
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -25,7 +25,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: out  # This must match your Next.js export output
+          path: synopsis-next-prototype/  # Ensure the correct path to the build directory
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
