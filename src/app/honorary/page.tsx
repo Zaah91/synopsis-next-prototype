@@ -12,37 +12,38 @@ export default function Honorarypage() {
         <p className="text-lg mt-2">Information, sources, documentation & guides.</p>
       </header>
 
+      
       <div className="grid grid-cols-5 gap-4 my-8">
-        <p className="col-span-3 col-start-2 text-lg">
-          App router metadata, chapter 16
+        <div className="col-span-3 col-start-2">
+          <div className="mb-2 font-semibold text-lg">App router metadata, chapter 16</div>
           <ul className="list-disc pl-6 mb-4">
             <li>https://nextjs.org/learn/dashboard-app/adding-metadata</li>
           </ul>
-          Metadata and OG images
+          <div className="mb-2 font-semibold text-lg">Metadata and OG images</div>
           <ul className="list-disc pl-6 mb-4">
             <li>https://nextjs.org/docs/app/getting-started/metadata-and-og-images</li>
           </ul>
-          generateMetadata, Nedarvning af meta data
+          <div className="mb-2 font-semibold text-lg">generateMetadata, Nedarvning af meta data</div>
           <ul className="list-disc pl-6 mb-4">
             <li>https://nextjs.org/docs/app/api-reference/functions/generate-metadata</li>
           </ul>
-          Programming robots.ts
+          <div className="mb-2 font-semibold text-lg">Programming robots.ts</div>
           <ul className="list-disc pl-6 mb-4">
             <li>https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots</li>
           </ul>
-          Programming sitemap.ts
+          <div className="mb-2 font-semibold text-lg">Programming sitemap.ts</div>
           <ul className="list-disc pl-6 mb-4">
             <li>https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap</li>
           </ul>
-          How Do I Optimise My Website For Easier Crawling?
+          <div className="mb-2 font-semibold text-lg">How Do I Optimise My Website For Easier Crawling?</div>
           <ul className="list-disc pl-6 mb-4">
             <li>https://www.hikeseo.co/learn/technical/crawling</li>
           </ul>
-          Googlebot
+          <div className="mb-2 font-semibold text-lg">Googlebot</div>
           <ul className="list-disc pl-6 mb-4">
             <li>https://developers.google.com/search/docs/crawling-indexing/googlebot</li>
           </ul>
-        </p>
+        </div>
       </div>
     </div>
   );
