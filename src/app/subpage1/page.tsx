@@ -10,7 +10,6 @@ export default function Subpage1() {
       <header className="text-center mb-8">
         <h1 className="text-4xl font-bold">Welcome to "robots" page</h1>
         <p className="text-lg mt-2">Images of the code, simple as that</p>
-        
       </header>
       <div className="grid grid-cols-3 sm:grid-cols-2 gap-8">
         <img src="/robots-snippet.png" alt="robots.ts file" className="mx-auto mt-4" />
@@ -21,10 +20,10 @@ export default function Subpage1() {
         </p>
         <p className="text-md mt-4">
           Here you can see how the robots.txt rules are set up for the site, controlling which pages search engines can crawl.
-          </p>
-          <p className="text-md mt-4">
-            The <code>robots.txt</code> is generated dynamically by the Next.js application, allowing for flexible and easy management of search engine indexing rules.
-          </p>
+        </p>
+        <p className="text-md mt-4">
+          The <code>robots.txt</code> is generated dynamically by the Next.js application, allowing for flexible and easy management of search engine indexing rules.
+        </p>
         </div>
       </div>
     </div>

@@ -11,7 +11,6 @@ export default function Honorarypage() {
         <h1 className="text-4xl font-bold">Honorary mentions</h1>
         <p className="text-lg mt-2">Information, sources, documentation & guides.</p>
       </header>
-
       
       <div className="grid grid-cols-5 gap-4 my-8">
         <div className="col-span-3 col-start-2">

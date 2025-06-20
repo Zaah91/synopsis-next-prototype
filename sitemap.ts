@@ -30,5 +30,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
         images: ['https://example.com/sitemap-xml.png'],
         },
     ];
-    }
-
+}
